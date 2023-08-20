@@ -1,0 +1,90 @@
+.profile-pics-div {
+	width: 200px;
+}
+.profile-pics {
+	width: 100%;
+	border-radius: 100px;
+}
+.all-profile-details {
+	display: flex;
+	margin-top: 130px;
+	margin-left: 20px;
+}
+.personal-details {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 20px;
+
+	width: 485px;
+}
+.name,
+.username,
+.email {
+	margin: 0;
+}
+.name  {
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+.username,
+.email {
+	font-size: 20px;
+	padding-bottom: 3px;
+	color: rgb(94, 92, 92);
+}
+.hobbies {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	margin-bottom: 5px;
+}
+.hobbies-header {
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 0;
+}
+.hobbies-div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;flex: 1;
+
+	margin-right: 20px;
+	
+	border-radius: 20px;
+	background-color: rgb(165, 165, 165);
+}
+.educational-background {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	
+	border-radius: 20px;
+	background-color: rgb(165, 165, 165);
+}
+.eb {
+	font-family: Arial, Helvetica, sans-serif;
+
+	margin: 0px;
+	margin-bottom: 5px;
+}
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 600px) {
+	.all-profile-details {
+		display: flex;
+		flex-direction: column;
+	}
+	.hobbies-div,
+	.educational-background {
+		padding-top: 25px;
+		padding-bottom: 20px;
+	}
+	.hobbies-div {
+		margin-bottom: 20px;
+		margin-right: 0px;
+	}
+}

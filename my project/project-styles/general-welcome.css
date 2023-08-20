@@ -1,0 +1,122 @@
+body {
+	background-image: url('/thumbnails/background-image2.jpeg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	margin: 0;
+	padding: 0;
+}
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.logo-div {
+	width: 90px;
+	margin-right: 20px;
+}
+.logo {
+	width: 100%;
+	border-radius: 10px;
+}
+.title {
+	display: flex;
+	font-size: 35px;
+	letter-spacing: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.thanks {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 22px;
+	display: flex;
+	justify-content: center;
+}
+.buttons {
+	display: flex;
+	justify-content: center;
+
+	margin-top: 10px;
+}
+.yes-button {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	border: none;
+	border-radius: 10px;
+	box-shadow: 5px 5px 4px 1px rgb(153, 151, 151);
+
+	font-size: 14px;
+
+	margin-right: 20px;
+
+	cursor: pointer;
+
+	transition: color 0.15s, background-color 0.15s,
+							margin-top 0.05s, margin-left 0.05s,
+							box-shadow  0.05s ;
+}
+
+.yes-button:hover {
+	color: white;
+	background-color: black;
+}
+.yes-button:active {
+	margin-top: 5px;
+	margin-left: 5px;
+	box-shadow: none;
+}
+.no-button {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	border: none;
+	border-radius: 10px;
+	box-shadow: 5px 5px 4px 1px rgb(153, 151, 151);
+
+	cursor: pointer;
+
+	transition: color 0.15s, background-color 0.15s,
+							margin-top 0.05s, margin-left 0.05s,
+							box-shadow  0.05s ;
+}
+.no-button:hover {
+	color: white;
+	background-color: black;
+}
+.no-button:active {
+	margin-top: 5px;
+	margin-left: 5px;
+	box-shadow: none;
+}
+.all-welcome-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	background-color: rgba(191, 191, 201, 0.801);
+
+	padding-top: 15px;
+	padding-bottom: 460px;
+}
+.container {
+	background-color: rgba(168, 168, 168, 0.699);
+
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 70px;
+	padding-top: 30px;
+
+	border-radius: 20px;
+
+	width: 460px;
+}
+.welcome-content {
+	display: flex;
+	flex-direction: column;
+}

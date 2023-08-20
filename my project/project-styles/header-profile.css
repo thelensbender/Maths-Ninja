@@ -1,0 +1,92 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	height: 100px;
+
+	background-color: white;
+
+	border-bottom: 1px solid rgb(175, 175, 175);
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.logo-div {
+	width: 90px;
+	margin-right: 20px; 
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.logo {
+	width: 100%;
+	border-radius: 10px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.title {
+	display: flex;
+	align-items: center;
+	font-size: 35px;
+	letter-spacing: 20px;
+	flex-wrap: nowrap;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header-image-div {
+	height: 100%;
+
+
+	display: flex;
+	justify-content: center;
+}
+.left-section,
+.middle-section,
+.right-section {
+	height: 100%;
+	display: flex;
+}
+.left-right {
+	display: flex;
+	justify-content: center;
+}
+.right-section {
+	display: flex;
+	align-items: center;
+	flex-shrink: 0;
+	justify-content: space-between;
+
+	width: 400px;
+
+	margin-right: 20px;
+	margin-left: 200px;
+
+	font-family: Arial, Helvetica, sans-serif;
+}
+.home-div,
+.tutorial-div,
+.sponsors-div,
+.about-div,
+.logout {
+	cursor: pointer;
+}
+.header-image {
+	height: 100%;
+}
+.logout,
+.home,
+.tutorial,
+.sponsors,
+.about {
+	text-decoration: none;
+	color: black;
+}
